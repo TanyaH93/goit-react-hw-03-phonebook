@@ -46,7 +46,7 @@ export default class ContactForm extends Component {
             <p className={inputLabel}> Number</p>
             <input
               required
-              placeholder="(097)111-11-11"
+              placeholder="(097)777-77-77"
               pattern="[0-9 + -/(/)]+"
               type="text"
               value={this.state.number}
